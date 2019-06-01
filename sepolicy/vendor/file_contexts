@@ -7,7 +7,6 @@
 /sys/devices/soc/soc:fpc1020(/.*)?		u:object_r:fpc_sysfs:s0
 
 # Goodix Fingerprint
-<<<<<<< HEAD
 /(vendor|system/vendor)/bin/gx_fpd		u:object_r:gx_fpd_exec:s0
 /dev/goodix_fp					u:object_r:gx_fpd_device:s0
 /data/gf_data(/.*)?				u:object_r:gx_fpd_data_file:s0
