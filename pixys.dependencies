@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "DarkAngelGR/olympian_kernel",
+    "target_path": "kernel/xiaomi/markw",
+    "branch": "Zeus"
+  },
+  {
+    "remote": "github",
+    "repository": "DarkAngelGR/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "9.0"
+  }
+]

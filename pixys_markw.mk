@@ -29,6 +29,10 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Pixys stuff
+PIXYS_BUILD_TYPE=OFFICIAL
+DEVICE_MAINTAINERS="DarkAngelGR"
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Xiaomi
 PRODUCT_NAME := pixys_markw
