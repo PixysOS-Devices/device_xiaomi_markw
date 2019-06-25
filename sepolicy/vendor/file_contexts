@@ -45,7 +45,3 @@
 
 # Charging Limiter
 /sys/kernel/charger_limiter/charging_limit		u:object_r:charging_limiter_sysfs:s0
-
-# Lineage LiveDisplay
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.xiaomi_markw              u:object_r:hal_lineage_livedisplay_qti_exec:s0
-
